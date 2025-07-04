@@ -1,0 +1,92 @@
+Front-End Internship Assignment
+
+Objective:
+Develop a dashboard page with specific functionalities using provided dummy data APIs.
+You will focus on front-end development, emphasizing user interface design, data
+handling, and client-side data persistence.
+
+Key Features & Requirements:
+​
+​
+​
+
+Timeline:
+● The assignment is expected to be completed and submitted within 48 hours
+from the time of receiving the assignment.
+Structure:
+● The application consists of two main screens:
+● Profile Screen: Use the first record from the users’ dummy api
+● Comments Dashboard: Displays all the comments from the dummy api
+
+​
+​
+
+Profile Screen Functionalities:
+● Load the users' data from the dummy users api. Use the first record from that.
+● The profile screen is not editable.
+● Make sure to add the functionality to go back to the dashboard page
+● Integrate proper routing between profile -> dashboard page
+
+​
+
+​
+
+Comments Screen Functionalities:
+● Data Population: from the dummy comments api you will get 500 records.
+Represent them as a paginated data grid.
+● Pagination: Ensure you are not using any in-built library feature to implement
+pagination. All the logic related to the selection of page and page size should
+be custom implemented. The page size options are 10, 50 and 100.
+● Searching: implement partial search logic for name, email and phone.
+● Sorting: implement the sorting logic for Post ID, Name and Email.
+Behavior:
+- If name sort is clicked then it will sort the grid such that the name column is
+in ascending order.
+- If the user clicks on the name sort again, it will sort in descending order.
+- Sorting modes will cycle between no sort-> ascending -> descending-> no sort
+
+for each successive click on the column
+- Sorting should be active on only 1 column at a time
+● When we refresh the page it should persist search, sort, page and page size
+filters.
+​
+
+​
+
+Technical Specifications:
+● For constructing user interfaces, make use of React.
+● Implement UI components using any library of your choice.
+● Please ensure that all the code is written in TypeScript. Avoid using plain
+JavaScript.
+● Ensure cross-browser compatibility (Edge, Firefox, Chrome).
+
+​
+
+​
+
+Evaluation Criteria:
+● Requirement and functionality coverage
+● Core logic implementation and understanding
+● Design quality of the screens (refer to provided wireframes but feel free to
+enhance the UI).
+● Responsiveness and mobile optimisation of the screen
+● Routing between the pages.
+● Cross-browser functionality
+● Usage of self-implemented components over library components
+● Additional plus points for usage of typescript
+
+​
+
+​
+
+Submission Instructions:
+● Exclude the node_modules directory when zipping the folder.
+● Upload the zipped folder to Google Drive and share the link.
+
+Note:
+This assignment is a critical component of your internship application. It will assess your
+technical skills, problem-solving abilities, and attention to detail. Good luck!
+
+Wireframes:
+
+
